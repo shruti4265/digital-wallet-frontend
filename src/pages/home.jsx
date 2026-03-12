@@ -37,7 +37,6 @@ function Home() {
     const currentTime = Date.now();
     const timeDiff = currentTime - time;
 
-    console.log("Your Token:", token);
 
     if (!token || timeDiff > 3600000) {
       localStorage.removeItem("token");
