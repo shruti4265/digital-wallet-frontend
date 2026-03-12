@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+  .register-container {
+    width: 95%;
+    height: auto;
+  }
+  .login-container {
+    width: 95%;
+    height: auto;
+  }
+  .form-content{
+    width: 100%;
+  }
+  .form-select{
+    width: 100%;
+  }
+  button {
+    width: 100%;
+  }
+
+  .login_image {
+    margin-right: 85px;
+    width: 80%;
+  }
+  .register_image {
+    margin-right: 85px;
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  html, body, #root {
+    height: auto;
+  }
+
+  .login-container {
+    grid-template-columns: 1fr;
+    height: auto;
+    width: 90%;
+    box-shadow: none;
+  }
+  .register-container {
+    grid-template-columns: 1fr;
+    height: auto;
+    width: 90%;
+    box-shadow: none;
+  }
+
+  .first, .second {
+    padding: 20px 0;
+  }
+
+  .login_image {
+    width: 70%;
+  }
+  .register_image {
+    width: 90%;
+  }
+
+  .form-content{
+    width: 118%;
+    margin-left: -9%;
+    padding-right: 6%;
+  }
+  .eyeIcon{
+    right: -6%;
+  }
+  .form-select{
+    width: 118%;
+    margin-left: -9%;
+  }
+  button {
+    width: 118%;
+    margin-left: -9%;
+  }
+
+  .form-head h1 {
+    font-size: 28px;
+  }
+
+  .form-head p {
+    font-size: 14px;
+  }
+}
